@@ -1,0 +1,201 @@
+/* body{
+
+    background-color: powderblue;
+} */
+body{
+
+    margin: 0;
+    /* it works for inline block and full width elements */
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    color:#40514E
+    
+}
+
+h1{
+    margin-top: 0;
+
+    /* width:10px;
+    margin:0 auto 0 auto; */
+   
+font-family: 'Sacramento', cursive;
+font-size:5.625rem ;
+
+color:#055050;
+margin-bottom: 20px;
+
+/* 100% is 16 px */
+/* 1em---is 16px--is 100% */
+/* rem--means ignore all the parent setting...so parent and child font doesnt get add */
+}
+
+h2{
+    font-weight: normal;
+    margin-top: 20px;
+    font-size:2.5rem ;
+    /* width:10px;
+    margin:0 auto 0 auto; */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+  
+    color:#055050
+}
+
+h3{
+    margin-top: 0;
+
+    /* width:10px;
+    margin:0 auto 0 auto; */
+    font-family: 'Montserrat', sans-serif;
+color:#03595c;
+
+}
+a{
+    color: darkcyan;
+  
+    font-family: 'Montserrat', sans-serif;
+margin:10px 20px;
+text-decoration: none;
+}
+.copy{
+    color:#faf5f5;
+    font-size: medium;
+    margin: 10px 20px;
+}
+a:hover{
+    color:rgb(30, 18, 206)
+}
+.top-container{
+background-color:#51c1c2;
+position: relative;
+padding-top: 200px;
+
+
+
+}
+
+
+.middle-container{
+    margin:100px 0 ;
+ 
+    
+    
+    
+    }
+    .btn {
+        background: #3D94F6;
+        background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+        background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+        -webkit-border-radius: 11px;
+        -moz-border-radius: 11px;
+        border-radius: 11px;
+        color: #FFFFFF;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+        padding: 17px;
+        
+        border: groove #337FED 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+     }
+     
+     .btn:hover {
+        border: solid #FFAE00 1px;
+        background: #1E62D0;
+        background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+        background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+     }
+
+    .intro{
+
+        width:50%;
+        margin:auto
+    }
+.Mountain{
+    width: 500px;
+    height:400px;
+   
+}
+.top-cloud{
+    height:150px;
+width:150px;
+position:absolute;
+right:300px;
+top:50px;
+
+
+
+}
+.bottom-cloud{
+    height:150px;
+width:150px;
+
+position: absolute;
+left:300px;
+bottom:300px;
+
+
+
+}
+p{
+    line-height: 2;
+}
+hr{
+border: dotted #40514E 6px;
+border-bottom: none;
+width:50px;
+margin:100px auto;
+}
+
+.skill-row{
+width:50%;
+margin:0 auto;
+margin:100px auto 100px auto;
+text-align:left;
+line-height: 2;
+
+}
+.coding-img{
+    width:30%;
+    height:25%;
+    float:left ;
+    margin-right: 30px;
+  
+    /* image floating to left and text wrap around */
+}
+.skill{
+    width:25%;
+    height:25%;
+    float:right ;
+    margin-left: 30px;
+    text-align: right;
+}
+.bottom-container{
+
+    background-color: rgb(79, 238, 238);
+    padding:50px 0 20px;
+    
+}
+.contact{
+    margin-top:50px;
+}
+.contact-me{
+
+   width: 30%;
+   margin:auto;
+
+
+}
